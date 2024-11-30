@@ -8,15 +8,23 @@ import Clients from './components/Clients'
 import ProjectsSection from './components/ProjectsSection'
 import ClientFeedback from './components/ClientFeedback'
 import Hero from './components/Hero'
+import ServicesSection from './components/ServicesSection'
 
 function App() {
   return (
     <>
       <NavBar />
-      <Hero/>
-      <ClientFeedback/>
-      <ProjectsSection/>
-      <Clients/>
+      <Hero />
+
+      <div className="flex justify-center">
+        <ServicesSection />
+      </div>
+      
+      <ClientFeedback />
+      <ProjectsSection />
+      <Clients />
+
+
 
 
 
