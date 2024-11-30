@@ -2,7 +2,7 @@ import React from 'react';
 
 const TestimonialCard = ({ logo, company, text, name, position, clientImage }) => {
   return (
-    <div className="bg-gray-50 p-4 sm:p-8 rounded-2xl shadow-lg max-w-xl flex flex-col md:flex-row gap-4 sm:gap-8">
+    <div className="bg-gray-50 p-4 sm:p-8 rounded-2xl shadow-lg  max-w-xl flex flex-col md:flex-row gap-4 sm:gap-8">
       <div className="flex-1">
         <img
           src={logo}
