@@ -7,11 +7,13 @@ import Charity from './components/Charity'
 import Clients from './components/Clients'
 import ProjectsSection from './components/ProjectsSection'
 import ClientFeedback from './components/ClientFeedback'
+import Hero from './components/Hero'
 
 function App() {
   return (
     <>
       <NavBar />
+      <Hero/>
       <ClientFeedback/>
       <ProjectsSection/>
       <Clients/>
