@@ -6,5 +6,6 @@ import Apple from './Apple.svg';
 import Dribbble from './Dribbble.svg';
 import IDK from './IDK.svg';
 import Google from './Google.svg';
+import DarkNav from './DarkNav.svg'
 
-export { FooterLogo, Insta, Facebook, LinkedIn ,Apple, Dribbble, IDK,Google};
+export { FooterLogo, Insta, Facebook, LinkedIn ,Apple, Dribbble, IDK,Google,DarkNav};
