@@ -40,7 +40,7 @@ const testemonials = [
        
         <div className="flex flex-wrap gap-8 justify-center mb-8">
           {testemonials.map((testemonial) => (
-            <TestimonialCard 
+            <TestemonialCard 
               key={testemonial.id}
               {...testemonial}
             />
