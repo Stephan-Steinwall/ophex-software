@@ -17,7 +17,7 @@ function ProjectsSection() {
   return (
     <section className="py-16 px-4 max-w-7xl mx-auto">
       <div className="text-center mb-16">
-        <h2 className="text-orange-500 text-4xl font-bold mb-4">Our Projects</h2>
+        <h2 className="text-orange-500 text-2xl font-semibold mb-4">Our Projects</h2>
         <p className="text-4xl font-bold max-w-3xl mx-auto">
           Projects from some of our clients who kept their trust on us
         </p>
